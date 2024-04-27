@@ -2,8 +2,7 @@ import {ProBun} from "probun";
 
 const server = new ProBun({
     routes: "routes",
-    // @ts-ignore
-    port: process.env.PORT,
+    port: 3000,
     logger: true
 });
 
